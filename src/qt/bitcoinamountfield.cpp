@@ -95,7 +95,7 @@ public:
     {
         if(cachedMinimumSizeHint.isEmpty())
         {
-            ensureBitrityhed();
+            ensurePolished();
 
             const QFontMetrics fm(fontMetrics());
             int h = lineEdit()->minimumSizeHint().height();
