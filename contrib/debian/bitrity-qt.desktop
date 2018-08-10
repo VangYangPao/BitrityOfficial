@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitrity Core
+Comment=Bitrity P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Bitrity peer-to-peer Netzwerk
+Comment[fr]=Bitrity, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bitrity, eşten eşe kriptografik sanal para birimi
+Exec=bitrity-qt %u
+Terminal=false
+Type=Application
+Icon=bitrity128
+MimeType=x-scheme-handler/bitrity;
+Categories=Office;Finance;

@@ -1,0 +1,22 @@
+[Unit]
+Description=Bitrity's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitritycore
+Group=bitritycore
+
+Type=forking
+PIDFile=/var/lib/bitrityd/bitrityd.pid
+ExecStart=/usr/bin/bitrityd -daemon -pid=/var/lib/bitrityd/bitrityd.pid \
+-conf=/etc/bitritycore/bitrity.conf -datadir=/var/lib/bitrityd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

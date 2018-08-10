@@ -1,0 +1,6 @@
+usr/local/bin/bitrity-qt usr/bin
+share/pixmaps/bitrity32.xpm usr/share/pixmaps
+share/pixmaps/bitrity16.xpm usr/share/pixmaps
+share/pixmaps/bitrity128.png usr/share/pixmaps
+debian/bitrity-qt.desktop usr/share/applications
+debian/bitrity-qt.protocol usr/share/kde4/services/
